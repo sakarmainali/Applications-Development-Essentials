@@ -1,0 +1,11 @@
+{
+    "env":{
+
+        "MONGO_URI":"mongodb+srv://debugger:debugger@sakacluster-0i4qj.mongodb.net/merndum?retryWrites=true&w=majority",
+        "GOOGLE_CLIENTID":"187378869172-knu7fo91uclfmek7ck7v4qpc9htrpqkr.apps.googleusercontent.com",
+        "GOOGLE_CLIENTKEY":"c3erhGDg6UpL1_gpNH3FKdRA",
+        "COOKIE_KEY":"adsfjbksadoijsladsja",
+        "JWT_KEY":"supersecret_dont_share"
+    }
+}
+
