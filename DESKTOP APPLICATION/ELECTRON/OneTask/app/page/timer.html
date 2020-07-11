@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ONE TASK</title>
+</head>
+<body>
+  <h4><b><center>ONE TASK TIMER</center></b></h4>
+
+  <b>What task are you up to now ? Enter one task you would like to complete within some time duration:</b>
+  <div id="comment-root"></div>
+  <h5><b> SET TIMER [hour:minute:second]</b></h5>
+  <div id="timer-root"></div>
+  <h6>Set Timer & Press Enter To Get Started</h6>
+  <h6>Press Esc to minimize </h6>
+  <h6>You will be notified after timer stops</h6>
+  <h3><a href="#" onclick="newWin()">ADS: Try Book Summary App</a></h3>
+
+</body>
+<script>
+const path = require('path');
+
+let win
+
+const newWin = () => {
+  win = window.open('https://bookmin.web.app', 'Bookmin', 'width=840,height=600,alwaysOnTop=1');
+}
+
+  const scripts = [];
+
+  if (process.env.NODE_ENV === 'development') {
+    scripts.push('<script defer src=\"http://localhost:3001/build/timer.js"><\/script>');
+  }
+
+  document.write(scripts.map(script => script));
+</script>
+</html>

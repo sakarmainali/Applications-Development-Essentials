@@ -1,0 +1,43 @@
+{
+  "name": "OneTask",
+  "version": "0.0.0",
+  "description": "Simple one task timer desktop application using electron",
+  "main": "./build/main.js",
+  "repository": "",
+  "author": "sakaubuntu",
+  "license": "",
+  "scripts": {
+    "dev": "electron -r @babel/register ./app/index.js",
+    "main": "nodemon --exec \"npm run dev\" --ext js --ignore build/ --ignore dist/ --ignore app/page",
+    "start": "NODE_ENV=development webpack-dev-server --hot --inline --watch",
+    "build": "electron-builder -mwl",
+    "build:page": "NODE_ENV=production webpack",
+    "package": "npm run build:page && build -p always -c electron-builder.yml -mwl"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "auto-launch": "^5.0.5",
+    "classnames": "^2.2.6",
+    "electron-updater": "^4.0.0",
+    "menubar": "^5.2.3",
+    "mousetrap": "^1.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "electron": "^3.0.4",
+    "electron-builder": "^20.28.4",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.4",
+    "nodemon": "^1.18.4",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}

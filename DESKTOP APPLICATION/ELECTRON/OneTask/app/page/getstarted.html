@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> 1 TASK   </title>
+</head>
+<body>
+  <center><br>
+
+  <h2><b>WELCOME TO ONE TASK TIMER </b></h2>
+
+  <h3>Do one task at a time with this timer and stay yourself focused </h3>
+  <br>
+  <h3><i>Quickly set timer from this tray icon <img src="https://icons.iconarchive.com/icons/iynque/ios7-style/64/Time-Machine-icon.png" border="0" alt="from iconarchive" height="20px" /> anytime you need and Press Esc to minimize it</i></h3>
+    
+
+  <center> <button id="close-btn" type="button" style="height:40px;width:110px"><b>OKAY GOT IT</b></button> </center>
+    
+    <h3><a href="#" onclick="newWin()">ADS: Try Book Summary App: <marquee><b>Explore and Share Book Insights & Summaries</b></marquee></a></h3>
+
+  </center>
+
+</body>
+<script>
+const remote = require('electron').remote;
+
+
+
+ document.getElementById("close-btn").addEventListener("click", function (e) {
+       var window = remote.getCurrentWindow();
+       window.close(); 
+  });
+
+  
+      const newWin = () => {
+        win = window.open('https://book-min.herokuapp.com/', 'Bookmin', 'width=840,height=600,alwaysOnTop=1')
+      }
+  
+</script>
+</html>
