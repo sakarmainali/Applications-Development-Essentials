@@ -1,5 +1,6 @@
 Consists of a Simple mobile application Bookmin which helps exlpore and share book summaries more easily
 
+Final Application Backed hosted link:https://book-min.herokuapp.com/
 
 Final apk build for android download link : https://drive.google.com/file/d/11JdC2ZEHunAlaY3HknujYepR3rUWvL7N/view?usp=sharing
 
