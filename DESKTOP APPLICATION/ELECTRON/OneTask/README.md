@@ -19,7 +19,7 @@ Download Final Application linux installer link:https://drive.google.com/file/d/
   ```
 
 
-* Download and extract Linux installer .snap file from above link
+* Download and extract Linux installer .snap file from above linux installer link
 
 
 * Go to downloaded directory and type following command to install
