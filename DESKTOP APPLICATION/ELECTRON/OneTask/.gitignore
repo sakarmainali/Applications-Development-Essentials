@@ -1,4 +1,4 @@
-.idea
+
 /node_modules
 *.log
 /build
@@ -8,4 +8,4 @@ keyChain
 build
 dist
 node_modules
-
+.vscode
