@@ -6,6 +6,7 @@ Download Final Application windows installer link: https://drive.google.com/file
 
 Download Final Application linux installer link:https://drive.google.com/file/d/1cJu94PVo3i5bNJbpkMugzDIv02C6bpW8/view?usp=sharing
 
+Download Final macos zip installer link:https://drive.google.com/file/d/1a0L-BY7j7_zO4YYXjFonfHo_vfohD9Oy/view?usp=sharing
 
 
 ###### How to run on linux?
@@ -18,7 +19,6 @@ Download Final Application linux installer link:https://drive.google.com/file/d/
   $ sudo apt install snapd
   ```
 
-
 * Download and extract Linux installer .snap file from above linux installer link
 
 
@@ -27,13 +27,11 @@ Download Final Application linux installer link:https://drive.google.com/file/d/
 ```shell
   $ sudo snap install --devmode OneTask_0.0.0_amd64.snap 
   ```
+  
 * Launch from OneTask icon in applications or press following command in terminal to run OneTask
 
 ```shell
   $ onetask 0.0.0
   ```
-
-
-* Download Final Application windows macos installer link:https://drive.google.com/file/d/1a0L-BY7j7_zO4YYXjFonfHo_vfohD9Oy/view?usp=sharing
 
 
